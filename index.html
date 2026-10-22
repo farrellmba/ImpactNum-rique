@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestion Google Ads à Montréal | ImpactNumérique.ca</title>
+  <meta name="description" content="Agence de gestion Google Ads à Montréal : campagnes Search, Display et Performance Max, SEO local, suivi des conversions et rapports clairs. Audit gratuit.">
+  <link rel="canonical" href="https://www.votredomaine.ca/">
+  <link rel="alternate" hreflang="fr-CA" href="https://www.votredomaine.ca/">
+  <meta property="og:title" content="Gestion Google Ads à Montréal | ">
+  <meta property="og:description" content="Des campagnes qui attirent des clients prêts à acheter. Mesurer. Affiner. Améliorer.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_CA">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Consent Mode v2: tout est REFUSÉ par défaut (Loi 25). Mis à jour dans script.js après le choix. -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+      analytics_storage: 'denied', wait_for_update: 500
+    });
+    gtag('set', 'ads_data_redaction', true);
+  </script>
+  <!-- TODO: remplacez G-XXXXXXX par votre ID GA4, ou installez GTM à la place -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+    // gtag('config', 'AW-XXXXXXXXX');  // ID de conversion Google Ads
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "ImpactNumérique.ca",
+    "description": "Gestion Google Ads, publicité sociale, SEO local et suivi des conversions à Montréal.",
+    "areaServed": [{"@type":"City","name":"Montréal"},{"@type":"AdministrativeArea","name":"Québec"}],
+    "address": {"@type":"PostalAddress","addressLocality":"Montréal","addressRegion":"QC","addressCountry":"CA"},
+    "telephone": "+1-438-836-9702",
+    "email": "impactnumeriquebajef@gmail.com",
+    "url": "https://www.votredomaine.ca/",
+    "priceRange": "$$"
+  }
+  </script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Aller au contenu</a>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="ImpactNumérique.ca">
+      <span class="brand-mark">V</span><span class="brand-name">ImpactNumérique.ca</span>
+    </a>
+    <nav id="nav" aria-label="Navigation principale">
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#methode" data-i18n="nav.method">Méthode</a>
+      <a href="#quebec" data-i18n="nav.quebec">Pourquoi local</a>
+      <a href="#calculateur" data-i18n="nav.calc">Calculateur</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a class="btn btn-sm" href="#contact" data-i18n="nav.cta">Audit gratuit</a>
+    </nav>
+    <div class="tools">
+      <button class="lang" id="langBtn" type="button" aria-label="Changer de langue / Switch language">EN</button>
+      <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow" data-i18n="hero.eyebrow">Gestion publicitaire · Montréal, Québec</p>
+        <h1 data-i18n="hero.title">Des clics qui deviennent des clients, pas juste du trafic.</h1>
+        <p class="lead" data-i18n="hero.lead">Nous gérons vos campagnes Google Ads et sociales, installons un suivi fiable et vous montrons chaque mois ce que chaque dollar rapporte.</p>
+        <div class="cta-row">
+          <a class="btn" href="#contact" data-i18n="hero.cta1">Obtenir mon audit gratuit</a>
+          <a class="btn btn-ghost" href="#calculateur" data-i18n="hero.cta2">Estimer mon retour</a>
+        </div>
+        <ul class="ticks">
+          <li data-i18n="hero.t1">Pas de contrat à long terme</li>
+          <li data-i18n="hero.t2">Votre compte Google Ads vous appartient</li>
+          <li data-i18n="hero.t3">Service en français et en anglais</li>
+        </ul>
+      </div>
+      <aside class="hero-card" aria-label="Aperçu du tableau de bord">
+        <div class="hc-head"><span data-i18n="hc.title">Aperçu du tableau de bord</span><span class="live"><i></i> <span data-i18n="hc.live">En direct</span></span></div>
+        <div class="kpis">
+          <div><b id="k1">0</b><small data-i18n="hc.k1">Appels</small></div>
+          <div><b id="k2">0</b><small data-i18n="hc.k2">Formulaires</small></div>
+          <div><b id="k3">0</b><small data-i18n="hc.k3">Coût / lead ($)</small></div>
+        </div>
+        <svg class="spark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="var(--accent)" stop-opacity=".35"/><stop offset="1" stop-color="var(--accent)" stop-opacity="0"/></linearGradient></defs>
+          <path d="M0,70 C30,66 45,50 75,54 S120,30 150,36 S210,18 240,22 S280,8 300,6 L300,90 L0,90Z" fill="url(#g)"/>
+          <path d="M0,70 C30,66 45,50 75,54 S120,30 150,36 S210,18 240,22 S280,8 300,6" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <p class="note" data-i18n="hc.note">Données fictives, à titre d'illustration.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- TAGLINE BAND -->
+  <section class="band" aria-label="Mesurer, affiner, améliorer">
+    <div class="wrap band-in">
+      <span data-i18n="band.1">Mesurer.</span><span data-i18n="band.2">Affiner.</span><span data-i18n="band.3">Améliorer.</span>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="svc.eyebrow">Nos services</p>
+      <h2 data-i18n="svc.title">Six services, un seul objectif : plus de clients rentables.</h2>
+      <div class="grid3">
+
+        <article class="card">
+          <span class="num">01</span>
+          <h3 data-i18n="s1.t">Google Ads</h3>
+          <p data-i18n="s1.d">Campagnes Search, Display et Performance Max conçues pour attirer des clients prêts à acheter.</p>
+          <ul>
+            <li data-i18n="s1.l1">Recherche de mots-clés et exclusions</li>
+            <li data-i18n="s1.l2">Annonces d'appel et extensions</li>
+            <li data-i18n="s1.l3">Ciblage géographique précis</li>
+          </ul>
+          <a class="link" href="#contact" data-service="google-ads" data-i18n="svc.cta">Discuter de ce service →</a>
+        </article>
+
+        <article class="card">
+          <span class="num">02</span>
+          <h3 data-i18n="s2.t">Publicité sur les réseaux sociaux</h3>
+          <p data-i18n="s2.d">Annonces ciblées sur Meta et d'autres plateformes pour joindre votre client idéal.</p>
+          <ul>
+            <li data-i18n="s2.l1">Facebook et Instagram</li>
+            <li data-i18n="s2.l2">Audiences similaires et remarketing</li>
+            <li data-i18n="s2.l3">Créatifs testés en continu</li>
+          </ul>
+          <a class="link" href="#contact" data-service="social" data-i18n="svc.cta">Discuter de ce service →</a>
+        </article>
+
+        <article class="card">
+          <span class="num">03</span>
+          <h3 data-i18n="s3.t">SEO et visibilité locale</h3>
+          <p data-i18n="s3.d">Optimisation du profil d'entreprise Google, SEO local et contenu optimisé pour vous démarquer sur votre marché.</p>
+          <ul>
+            <li data-i18n="s3.l1">Profil d'entreprise Google</li>
+            <li data-i18n="s3.l2">Pages par quartier et par service</li>
+            <li data-i18n="s3.l3">Avis clients et citations locales</li>
+          </ul>
+          <a class="link" href="#contact" data-service="seo" data-i18n="svc.cta">Discuter de ce service →</a>
+        </article>
+
+        <article class="card">
+          <span class="num">04</span>
+          <h3 data-i18n="s4.t">Présence web</h3>
+          <p data-i18n="s4.d">Pages d'atterrissage et sites rapides, clairs et axés sur la conversion pour transformer les visiteurs en clients.</p>
+          <ul>
+            <li data-i18n="s4.l1">Chargement sous 2 secondes</li>
+            <li data-i18n="s4.l2">Bilingue FR/EN</li>
+            <li data-i18n="s4.l3">Pensé pour le mobile d'abord</li>
+          </ul>
+          <a class="link" href="#contact" data-service="web" data-i18n="svc.cta">Discuter de ce service →</a>
+        </article>
+
+        <article class="card">
+          <span class="num">05</span>
+          <h3 data-i18n="s5.t">Analytique et rapports</h3>
+          <p data-i18n="s5.d">Suivi des conversions et rapports mensuels clairs pour savoir d'où viennent vos clients et ce que chaque dollar investi rapporte.</p>
+          <ul>
+            <li data-i18n="s5.l1">Appels, formulaires et clavardage</li>
+            <li data-i18n="s5.l2">GA4 et Tag Manager</li>
+            <li data-i18n="s5.l3">Conforme à la Loi 25</li>
+          </ul>
+          <a class="link" href="#contact" data-service="analytics" data-i18n="svc.cta">Discuter de ce service →</a>
+        </article>
+
+        <article class="card">
+          <span class="num">06</span>
+          <h3 data-i18n="s6.t">Tableau de bord et rétroaction</h3>
+          <p data-i18n="s6.d">Un tableau de bord toujours accessible et un canal direct de rétroaction pour vous tenir informé, vos commentaires guidant nos prochaines optimisations.</p>
+          <ul>
+            <li data-i18n="s6.l1">Rapport en direct (Looker Studio)</li>
+            <li data-i18n="s6.l2">Canal de rétroaction direct</li>
+            <li data-i18n="s6.l3">Revue mensuelle de 30 minutes</li>
+          </ul>
+          <a class="link" href="#contact" data-service="dashboard" data-i18n="svc.cta">Discuter de ce service →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section id="methode" class="section alt">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="m.eyebrow">Notre méthode</p>
+      <h2 data-i18n="m.title">Mesurer. Affiner. Améliorer.</h2>
+      <p class="sub" data-i18n="m.sub">Rapports en direct. Constats clairs. Optimisation continue.</p>
+      <ol class="steps">
+        <li><b data-i18n="m.1t">Mesurer</b><p data-i18n="m.1d">Avant de dépenser un dollar, nous installons le suivi des appels, des formulaires et des ventes. Sans mesure fiable, toute optimisation est une supposition.</p></li>
+        <li><b data-i18n="m.2t">Affiner</b><p data-i18n="m.2d">Chaque semaine, nous éliminons les termes de recherche qui gaspillent votre budget et déplaçons la dépense vers ce qui convertit.</p></li>
+        <li><b data-i18n="m.3t">Améliorer</b><p data-i18n="m.3d">Chaque mois, nous testons de nouvelles annonces et pages, puis intégrons vos commentaires : vous connaissez votre clientèle mieux que nous.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- QUEBEC -->
+  <section id="quebec" class="section">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="q.eyebrow">Pourquoi un partenaire local</p>
+      <h2 data-i18n="q.title">Faire de la publicité au Québec n'est pas faire de la publicité ailleurs.</h2>
+      <div class="grid2">
+        <div class="note-card"><h3 data-i18n="q.1t">Le français d'abord</h3><p data-i18n="q.1d">La Charte de la langue française exige une présence en français. Nous bâtissons des campagnes et pages distinctes en français, pas des traductions automatiques. Les gens cherchent « plombier urgence Montréal », pas « emergency plumber ».</p></div>
+        <div class="note-card"><h3 data-i18n="q.2t">Loi 25 et consentement</h3><p data-i18n="q.2d">Le suivi sans consentement expose votre entreprise. Nous installons un bandeau de consentement relié à Google Consent Mode pour rester conformes tout en conservant des données utiles.</p></div>
+        <div class="note-card"><h3 data-i18n="q.3t">Un marché à plusieurs visages</h3><p data-i18n="q.3d">Montréal, la Rive-Sud, Laval et Québec n'ont ni les mêmes coûts par clic ni les mêmes habitudes. Nous segmentons par quartier et par langue plutôt qu'un grand rayon générique.</p></div>
+        <div class="note-card"><h3 data-i18n="q.4t">L'appel reste roi</h3><p data-i18n="q.4d">Pour les services locaux, la majorité des conversions se font par téléphone. Nous suivons les appels, y compris leur durée, et non seulement les clics.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALCULATOR -->
+  <section id="calculateur" class="section alt">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="c.eyebrow">Calculateur</p>
+      <h2 data-i18n="c.title">Estimez ce que vos annonces pourraient rapporter.</h2>
+      <p class="sub" data-i18n="c.sub">Des chiffres prudents valent mieux que des promesses. Modifiez les valeurs selon votre réalité.</p>
+      <div class="calc">
+        <form class="calc-in" id="calc" onsubmit="return false">
+          <label><span data-i18n="c.budget">Budget publicitaire mensuel ($)</span><input type="number" id="cBudget" value="2000" min="0" step="100"></label>
+          <label><span data-i18n="c.cpc">Coût moyen par clic ($)</span><input type="number" id="cCpc" value="4" min="0.1" step="0.1"></label>
+          <label><span data-i18n="c.cr">Taux de conversion du site (%)</span><input type="number" id="cCr" value="8" min="0" max="100" step="0.5"></label>
+          <label><span data-i18n="c.close">Leads qui deviennent clients (%)</span><input type="number" id="cClose" value="30" min="0" max="100" step="1"></label>
+          <label><span data-i18n="c.value">Valeur moyenne d'un client ($)</span><input type="number" id="cValue" value="600" min="0" step="50"></label>
+        </form>
+        <div class="calc-out" aria-live="polite">
+          <div><small data-i18n="c.o1">Clics</small><b id="oClicks">0</b></div>
+          <div><small data-i18n="c.o2">Leads</small><b id="oLeads">0</b></div>
+          <div><small data-i18n="c.o3">Coût par lead</small><b id="oCpl">0</b></div>
+          <div><small data-i18n="c.o4">Nouveaux clients</small><b id="oCust">0</b></div>
+          <div><small data-i18n="c.o5">Revenu estimé</small><b id="oRev">0</b></div>
+          <div class="hl"><small data-i18n="c.o6">Retour sur dépense pub (ROAS)</small><b id="oRoas">0</b></div>
+        </div>
+      </div>
+      <p class="fine" data-i18n="c.fine">Estimation à titre indicatif, non une garantie de résultats. Les résultats réels dépendent de votre secteur, de la concurrence et de votre offre.</p>
+    </div>
+  </section>
+
+  <!-- DASHBOARD -->
+  <section id="tableau" class="section">
+    <div class="wrap grid-split">
+      <div>
+        <p class="eyebrow" data-i18n="d.eyebrow">Transparence totale</p>
+        <h2 data-i18n="d.title">Votre tableau de bord, accessible en tout temps.</h2>
+        <p class="lead" data-i18n="d.lead">Chaque client reçoit un rapport en direct. Plus de PDF en retard : vous voyez les appels, les formulaires et le coût par lead quand vous le voulez.</p>
+        <form class="feedback" id="fbForm" novalidate>
+          <h3 data-i18n="d.fbt">Une idée pour nos prochaines optimisations ?</h3>
+          <label class="sr" for="fbText" data-i18n="d.fbl">Votre commentaire</label>
+          <textarea id="fbText" name="feedback" rows="3" required data-i18n-ph="d.fbph" placeholder="Ex. : les appels du soir sont de meilleure qualité."></textarea>
+          <button class="btn btn-sm" type="submit" data-i18n="d.fbb">Envoyer</button>
+          <p class="status" id="fbStatus" role="status"></p>
+        </form>
+      </div>
+      <div class="mock" aria-hidden="true">
+        <div class="mock-top"><i></i><i></i><i></i><span>dashboard.votredomaine.ca</span></div>
+        <div class="mock-body">
+          <div class="mrow"><span>Google Ads</span><div class="meter"><u style="width:78%"></u></div><b>78%</b></div>
+          <div class="mrow"><span>Meta</span><div class="meter"><u style="width:52%"></u></div><b>52%</b></div>
+          <div class="mrow"><span>SEO local</span><div class="meter"><u style="width:64%"></u></div><b>64%</b></div>
+          <div class="mrow"><span>Direct</span><div class="meter"><u style="width:23%"></u></div><b>23%</b></div>
+          <!-- Remplacez ce mock par: <iframe src="https://lookerstudio.google.com/embed/reporting/VOTRE_ID" ...> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section alt">
+    <div class="wrap narrow">
+      <p class="eyebrow">FAQ</p>
+      <h2 data-i18n="f.title">Questions fréquentes</h2>
+      <details><summary data-i18n="f.1q">Quel budget publicitaire faut-il prévoir ?</summary><p data-i18n="f.1a">Pour un service local à Montréal, comptez généralement au moins 1 000 à 1 500 $ par mois en dépenses publicitaires pour recueillir assez de données. Nos honoraires de gestion sont distincts : les annonces sont payées directement à Google avec votre carte.</p></details>
+      <details><summary data-i18n="f.2q">Le compte Google Ads m'appartient-il ?</summary><p data-i18n="f.2a">Oui. Le compte est ouvert à votre nom et nous y avons un accès gestionnaire. Si vous partez, vous gardez l'historique, les données et les audiences.</p></details>
+      <details><summary data-i18n="f.3q">En combien de temps verrai-je des résultats ?</summary><p data-i18n="f.3a">Les premiers appels arrivent souvent dès la première semaine. Il faut toutefois compter de 6 à 8 semaines pour que l'optimisation se stabilise. Quiconque promet des résultats garantis en 7 jours ne dit pas la vérité.</p></details>
+      <details><summary data-i18n="f.4q">Faites-vous les annonces en français et en anglais ?</summary><p data-i18n="f.4a">Oui, avec des campagnes séparées par langue, des annonces rédigées par un humain et des pages d'atterrissage adaptées.</p></details>
+      <details><summary data-i18n="f.5q">Y a-t-il un contrat de longue durée ?</summary><p data-i18n="f.5a">Non. Nos ententes sont mensuelles, avec un préavis de 30 jours. Nous préférons vous garder par les résultats.</p></details>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap grid-split">
+      <div>
+        <p class="eyebrow" data-i18n="ct.eyebrow">Parlons-en</p>
+        <h2 data-i18n="ct.title">Obtenez votre audit gratuit de 20 minutes.</h2>
+        <p class="lead" data-i18n="ct.lead">Nous examinons votre compte (ou votre marché) et vous disons honnêtement où vous perdez de l'argent, même si vous ne travaillez pas avec nous.</p>
+        <ul class="contact-list">
+          <li><b data-i18n="ct.tel">Téléphone</b> <a href="tel:+14388369702">438-836-9702</a></li>
+          <li><b data-i18n="ct.mail">Courriel</b> <a href="mailto:impactnumeriquebajef@gmail.com">impactnumeriquebajef@gmail.com</a></li>
+          <li><b data-i18n="ct.zone">Zone desservie</b> <span data-i18n="ct.zoneV">Grand Montréal, Laval, Rive-Sud, Rive-Nord</span></li>
+          <li><b data-i18n="ct.hours">Heures</b> <span data-i18n="ct.hoursV">Lun–ven, 9 h à 17 h (HE)</span></li>
+        </ul>
+        <!-- Option: ajoutez un lien Calendly / Cal.com ici -->
+        <a class="btn btn-ghost" href="https://cal.com/votre-nom" target="_blank" rel="noopener" data-i18n="ct.book">Réserver un appel</a>
+      </div>
+
+      <form class="form" id="contactForm" action="https://formspree.io/f/VOTRE_ID" method="POST" novalidate>
+        <label><span data-i18n="ct.name">Nom</span><input name="name" autocomplete="name" required></label>
+        <label><span data-i18n="ct.email">Courriel</span><input name="email" type="email" autocomplete="email" required></label>
+        <label><span data-i18n="ct.phone">Téléphone</span><input name="phone" type="tel" autocomplete="tel"></label>
+        <label><span data-i18n="ct.company">Entreprise et site web</span><input name="company" autocomplete="organization"></label>
+        <label><span data-i18n="ct.service">Service qui vous intéresse</span>
+          <select name="service" id="service">
+            <option value="google-ads" data-i18n="s1.t">Google Ads</option>
+            <option value="social" data-i18n="s2.t">Publicité sur les réseaux sociaux</option>
+            <option value="seo" data-i18n="s3.t">SEO et visibilité locale</option>
+            <option value="web" data-i18n="s4.t">Présence web</option>
+            <option value="analytics" data-i18n="s5.t">Analytique et rapports</option>
+            <option value="dashboard" data-i18n="s6.t">Tableau de bord et rétroaction</option>
+          </select>
+        </label>
+        <label><span data-i18n="ct.budget">Budget publicitaire mensuel approximatif</span>
+          <select name="budget">
+            <option>&lt; 1 000 $</option><option>1 000 – 3 000 $</option><option>3 000 – 10 000 $</option><option>10 000 $ +</option>
+          </select>
+        </label>
+        <label><span data-i18n="ct.msg">Message</span><textarea name="message" rows="4"></textarea></label>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+        <button class="btn" type="submit" data-i18n="ct.send">Envoyer ma demande</button>
+        <p class="status" id="formStatus" role="status"></p>
+        <p class="fine" data-i18n="ct.priv">En envoyant ce formulaire, vous acceptez que nous utilisions vos renseignements pour vous répondre. Voir notre politique de confidentialité.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div>
+      <a class="brand" href="#top"><span class="brand-mark">V</span><span class="brand-name">ImpactNumérique.ca</span></a>
+      <p data-i18n="ft.tag">Mesurer. Affiner. Améliorer.</p>
+    </div>
+    <div>
+      <p><b data-i18n="ft.legal">Légal</b></p>
+      <p><a href="/confidentialite.html" data-i18n="ft.priv">Politique de confidentialité</a></p>
+      <p><button class="linklike" id="consentReopen" type="button" data-i18n="ft.cookies">Gérer les témoins</button></p>
+      <p class="fine" data-i18n="ft.rpo">NEQ : 0000000000 · Responsable de la protection des renseignements : impactnumeriquebajef@gmail.com</p>
+    </div>
+    <div class="fine">© <span id="yr"></span> ImpactNumérique.ca. <span data-i18n="ft.rights">Tous droits réservés.</span></div>
+  </div>
+</footer>
+
+<!-- Sticky mobile call button -->
+<a class="callfab" href="tel:+14388369702" aria-label="Appeler"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg></a>
+
+<!-- Consent banner (Loi 25) -->
+<div class="consent" id="consent" role="dialog" aria-live="polite" aria-labelledby="cTitle" hidden>
+  <h2 id="cTitle" data-i18n="cc.t">Vos données, votre choix</h2>
+  <p data-i18n="cc.d">Nous utilisons des témoins d'analyse et de publicité pour mesurer l'efficacité de nos campagnes. Ils sont désactivés tant que vous n'avez pas donné votre accord.</p>
+  <div class="cc-btns">
+    <button class="btn btn-sm" id="ccAccept" type="button" data-i18n="cc.a">Tout accepter</button>
+    <button class="btn btn-sm btn-ghost" id="ccReject" type="button" data-i18n="cc.r">Tout refuser</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
